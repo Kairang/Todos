@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import Header from './components/Header/header';
+import Input from './components/Input/input';
+import Button from './components/Button/addBtn';
+import Line from './components/Line/line';
+import Todos from './components/Lists/todos';
+import Pagination from './components/Pagination';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header />
+      <div className='Input-box'>
+        <Input />
+        <Button />
+      </div>
+      <Line />
+      <Todos />
+      <Line />
+      <Pagination />
     </div>
-  );
+  )
 }
 
 export default App;

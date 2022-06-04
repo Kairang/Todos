@@ -1,0 +1,15 @@
+.list-content {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 60px; */
+    padding: 15px;
+}
+.list-item p {
+    font-size: 1.25em;
+    font-weight: 400;
+}

@@ -1,0 +1,15 @@
+.panigation-wrapper{
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn--active{
+    color: red;
+}
+.btn {
+    cursor: pointer;
+    font-size: 1.25em;
+    font-weight: 600;
+}

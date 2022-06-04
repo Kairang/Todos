@@ -1,0 +1,24 @@
+.btn-plus {
+    padding: 0px 10px;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    background: #004953;
+}
+.btn-special {
+    display: flex;
+    gap: 15px;
+}
+.btn-special span {
+    font-size: 1.25em;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn-special span:first-child {
+    color: greenyellow;
+}
+.btn-special span:last-child {
+    color: red;
+}
